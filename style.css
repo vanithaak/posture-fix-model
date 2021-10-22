@@ -21,7 +21,7 @@
 }
 
 .yellow {
-  background: #FFF96C;
+  background: #7EC8E3;
 }
 
 .card {
@@ -31,8 +31,8 @@
   max-width: 900px;
   
   /* font */
-  font-family: Poppins;
-  font-style: italic;
+  font-family: Comic Sans MS;
+  font-style: bold;
   font-weight: 500;
   font-size: 25px;
   line-height: 37px;
@@ -44,7 +44,7 @@
   max-width: 900px;
 /*   max-height: 400px; */
   
-  font-family: Poppins;
+  font-family: Comic Sans MS;
   font-weight: 500;
   font-size: 25px;
   line-height: 37px;
@@ -94,8 +94,8 @@ button {
   box-sizing: border-box;
   
   /* font */
-  font-family: Poppins;
-  font-style: italic;
+  font-family: Comic Sans MS;
+  font-style: bold;
   font-weight: 900;
   font-size: 25px;
   line-height: 37px;
@@ -119,8 +119,8 @@ a {
   box-sizing: border-box;
   
   /* font */
-  font-family: Poppins;
-  font-style: italic;
+  font-family: Comic Sans MS;
+  font-style: bold;
   font-weight: 500;
   font-size: 25px;
   line-height: 37px;
@@ -150,23 +150,23 @@ ul {
 
 /* SECTION NAME */
 h1 {
-  font-family: Poppins;
-  font-style: italic;
+  font-family: Comic Sans MS;
+  font-style: bold;
   font-weight: 900;
   font-size: 50px;
   line-height: 75px;
 
-  color: #FDEAFF;
+  color: #000000;
 
-  -webkit-text-stroke: 3px black;
+  /* -webkit-text-stroke: 3px black;
   
-   margin: 0 0 20px 40px;
+   margin: 0 0 20px 40px; */
 }
 
 /* SMALL BLACK HEADER */
 h2 {
-  font-family: Poppins;
-  font-style: italic;
+  font-family: Comic Sans MS;
+  font-style: bold;
   font-weight: 900;
   font-size: 30px;
   line-height: 37px;
@@ -228,7 +228,7 @@ img {
 #firstDesignSection {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 #firstCodeSection {
