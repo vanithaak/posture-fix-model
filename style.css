@@ -15,7 +15,6 @@
   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.54);
 }
 
-/* CARD SETTTTTTINGS */
 .pink {
   background: #FDEAFF;
 }
@@ -59,7 +58,6 @@
   font-size: 25px;
 }
 
-/* ADDITIONAL CARD SETTINGS */
 .right_align {
   display: flex;
   justify-content: flex-end;
@@ -72,16 +70,11 @@
 
 .small {
   max-width: 378px;
-/*   max-height: 100px; */
 }
 
 .middle {
   max-width: 476px;
   max-height: 250px;
-}
-
-.code_explain {
-  border-bottom: thick solid red;
 }
 
 .comment {
@@ -135,20 +128,6 @@ a:hover, button:hover {
   background: red;
 }
 
-.a_righttext {
-  padding: 0px 4px 0px 12px;
-}
-
-.a_lefttext {
-  padding: 0px 12px 0px 4px;
-}
-
-ul {
-/*   list-style-type: hiragana-iroha; */
-  list-style-type: katakana;
-}
-
-/* SECTION NAME */
 h1 {
   font-family: Comic Sans MS;
   font-style: bold;
@@ -174,16 +153,7 @@ h2 {
   margin: 0;
 }
 
-img {
-  margin-bottom: 24px;
-  padding: 0 20px 0 20px;
-}
-
-.design_img {
-  max-width: 900px;
-}
-
-/* This is very hard code to hide video under page content */
+/* hard code to hide video under page content 
 #videoContainer {
   position: absolute;
   z-index: 1;
@@ -206,23 +176,9 @@ img {
   flex-direction: column;
   color: black;
 }
-
-/* VIP THINGS THAT HAVE ID */
-#name_img {
-  display: flex;
-  align-content: space-between;
-}
-
-#descriptionText p {
-  margin-bottom: 0;
-}
-
+*/
 #startbuttonCont {
   padding-top: 25px;
-}
-
-#creationprocessHeader {
-  margin-left: 20px;
 }
 
 #firstDesignSection {
@@ -231,32 +187,14 @@ img {
   align-items: center;
 }
 
-#firstCodeSection {
-  margin-top: 40px;
-}
-
-#solution {
-  max-height: 400px;
-  filter: blur(1px);
-}
-
 @media only screen and (max-width: 810px) {
   .double_cards {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  .design_img {
-    max-width: 600px;
-    min-width: 200px;
-  }
-  
-  #name_img img {
-    max-width: 220px;
-  }
-  
   body {
     font-size: 18px;
   }
 }
+
