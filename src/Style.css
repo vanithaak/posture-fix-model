@@ -235,7 +235,7 @@ footer .column i+i {
         font-size: 2rem;
     }
     footer .row .col-md-2 {
-        margin-top: 8vmin;
+        margin-top: 7vmin;
     }
 }
 
@@ -252,4 +252,33 @@ footer .column i+i {
     .section-4 .carousel-inner {
         margin-left: -4vmin;
     }
+}
+
+
+/* body{
+    background-color: #808080;
+  } */
+
+#carouselExampleControls {
+    padding-top: 10%;
+    opacity: 0.9;
+    background-color: black;
+}
+
+
+/* .carousel {
+    margin-top: 10px;
+} */
+
+.carousel-inner {
+    height: 320px;
+}
+
+.carousel-caption {
+    color: white;
+    top: 50%;
+}
+
+p {
+    font-weight: 25px;
 }
